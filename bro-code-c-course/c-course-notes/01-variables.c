@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     // variable = declaration -> initialization
 
-    int x; // declaration
-    x = 10; // initialization
-    int y = 123; // declaration + initialization
-    int age = 19; // integer
-    float gpa = 3.89; // floating point number
-    char grade = 'F'; // character
+    int x;                           // declaration
+    x = 10;                          // initialization
+    int y = 123;                     // declaration + initialization
+    int age = 19;                    // integer
+    float gpa = 3.89;                // floating point number
+    char grade = 'F';                // character
     char name[] = "Rafael Henrique"; // array of characters
 
     printf("Hello %s\n", name);
@@ -17,5 +18,4 @@ int main(){
     printf("Your avarage grade is %c", grade);
 
     return 0;
-
-} 
+}
